@@ -1,0 +1,21 @@
+{
+    "name": "jacksunny/arrayfsm",
+    "description": "array based fsm plugin for laravel framework",
+    "authors": [
+        {
+            "name": "jacksunny2020",
+            "email": "jacksunny2020@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Jacksunny\\ArrayFsm\\": "src/"
+        }
+    }
+}
